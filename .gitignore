@@ -1,7 +1,4 @@
-# concrete folders #
-####################
 node_modules
 *.DS_Store
-*._.DS_Store
 *._*
 component-styleguide

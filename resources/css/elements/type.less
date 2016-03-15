@@ -47,45 +47,28 @@
     }
 }
 
-.variable-font-size(@major-third);
+.variable-font-size();
 
+@media (min-width: @sm-min) {
+    .variable-font-size(@major-third);
+}
+@media (min-width: @md-min) {
+    .variable-font-size(@perfect-fourth);
+}
+@media (min-width: @lg-min) {
+    .variable-font-size(@perfect-fifth);
+}
 
 // Headings
 // -------------------------
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
     font-family: @headings-font-family;
-    color: @head-color;
+    font-weight: @headings-font-weight;
+    line-height: @h-line-height;
+    color: @headings-color;
     margin-top: @margin-top;
     margin-bottom: @margin-bottom;
-}
-
-h1, .h1{
-    line-height: @h1-line-height;
-}
-
-h2, .h2{
-    line-height: @h2-line-height;
-}
-
-h3, .h3, h4, .h4{
-    line-height: @h34-line-height;
-}
-
-h5, .h5, h6, .h6{
-    line-height: @h56-line-height;
-}
-
-h1, .h1, h2, .h2, h3, .h3{
-    font-weight: 300;
-}
-
-h4, .h4, h5, .h5{
-    font-weight: 400;
-}
-
-h4, .h4, h5, .h5, h6, .h6{
-    color: @text-color;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
@@ -98,8 +81,24 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
 }
 
 h6, .h6{
+    /* For browsers that don’t support OpenType,
+    * features, use all caps. */
     text-transform: uppercase;
-    font-weight: 700;
+
+    /* Progressively enhance with `font-feature-settings`
+    * if `font-variant-caps` isn’t supported. */
+    @supports not (font-variant-caps: small-caps) {
+        text-transform: inherit;
+        font-feature-settings: "lnum", "smcp", "c2sc" 0;
+        font-size: 1em;
+    }
+
+    /* Otherwise, and ideally, use `font-variant-caps`. */
+    @supports (font-variant-caps: small-caps) {
+        text-transform: inherit;
+        font-variant-caps: small-caps;
+        font-size: 1em;
+    }
 }
 
 // Type Styles
@@ -111,4 +110,13 @@ p, table, pre{
 
 strong{
     font-weight: @strong-weight;
+}
+
+h1, .h1, h2, .h2, h3, .h3{
+    & + p{
+        font-weight: bold;
+        &.normal{
+            font-weight: normal;
+        }
+    }
 }

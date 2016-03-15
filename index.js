@@ -2,9 +2,9 @@ var styleguide = require('./component-styleguide');
 styleguide({
 	components: 'components',
     ext: 'html',
-    data: './data',
+    data: 'data',
     staticLocalDir: './resources',
-    staticPath: './resources',
-    stylesheets: ['css/main.css'],
-    scripts: ['js/dist/index.min.js'],
+    staticPath: '/resources',
+    stylesheets: ['css/main.css', 'css/styleguide.css'],
+    scripts: ['js/vendor/jquery.slim.min.js', 'js/vendor/underscore-min.js', 'js/dist/main.min.js'],
 });

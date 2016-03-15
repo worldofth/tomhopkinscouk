@@ -1,10 +1,11 @@
 var gruntConfig = {};
 
-var serverWatch = ['./components', './data', './resources/js/src', '!./resources/js/src/vendor', './resources/css'];
+var serverWatch = ['components', 'data', 'resources/js', '!resources/js/vendor', '!resources/js/src', 'resources/css'];
 var serverExtWatch = 'js,html,css';
-var scriptFiles = ['./resources/js/src/**/*.js', '!./resources/js/src/vendor/**/*.js'];
+var jshintFiles = ['resources/js/**/*.js', '!resources/js/vendor/**/*.js'];
 var lessFiles = {
-    'resources/css/main.css': 'resources/css/main.less'
+    'resources/css/main.css': 'resources/css/main.less',
+    'resources/css/styleguide.css': 'resources/css/styleguide.less'
 };
 
 gruntConfig.concurrent = {
@@ -20,20 +21,24 @@ gruntConfig.nodemon = {
 	dev: {
 		script: 'index.js',
 		options: {
-			watch: serverWatch,
-			ext: serverExtWatch,
+			//watch: serverWatch,
+			//ext: serverExtWatch,
 			callback: function(nodemon){
+				// nodemon.on('log', function(event){
+				// 	console.log(event.colour);
+				// });
+
 				nodemon.on('config:update', function(){
 					setTimeout(function(){
 						require('open')('http://localhost:3000');
 					}, 1000);
 				});
 
-				nodemon.on('restart', function () {
-					setTimeout(function() {
-						require('fs').writeFileSync('.rebooted', 'rebooted');
-					}, 1000);
-		        });
+				// nodemon.on('restart', function () {
+				// 	setTimeout(function() {
+				// 		require('fs').writeFileSync('.rebooted', 'rebooted');
+				// 	}, 1000);
+		  //       });
 			}
 		}
 	}
@@ -62,7 +67,7 @@ gruntConfig.eslint = {
 		options: {
 			configFile: './eslint.json'
 		},
-		src: scriptFiles
+		src: ['./resources/js/**/*.js', '!./resources/js/vendor/**/*.js']
 	}
 }
 
@@ -82,7 +87,7 @@ gruntConfig.uglify = {
         	sourceMapIn: './resources/js/dist/index.js.map'
 		},
 		files:{
-			'./resources/js/dist/index.min.js' : ['./resources/js/dist/index.js']
+			'./resources/js/dist/main.min.js' : ['./resources/js/dist/index.js']
 		}
 	}
 };
@@ -99,18 +104,12 @@ gruntConfig.less = {
 };
 
 gruntConfig.watch = {
-	server: {
-		files: ['.rebooted'],
-		options: {
-	        livereload: true
-	    }
-	},
 	less: {
 		files: ['resources/css/**/*.less'],
 		tasks: ['less']
 	},
 	scripts: {
-		files: scriptFiles,
+		files: ['./resources/js/**/*.js', '!./resources/js/vendor/**/*.js', '!./resources/js/**/*.min.js'],
 		tasks: ["eslint", "browserify", "extract_sourcemap", "uglify"]
 	}
 };
