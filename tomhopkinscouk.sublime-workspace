@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"watch",
+				"watchLess"
+			],
+			[
+				"bundle",
+				"bundler"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
 				"text",
 				"text-decoration"
 			],
@@ -51,6 +63,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 3386,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/js/src/import.js",
+			"settings":
+			{
+				"buffer_size": 334,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 2700,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -59,10 +95,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 235.0,
-		"last_filter": "",
+		"height": 375.0,
+		"last_filter": "list",
 		"selected_items":
 		[
+			[
+				"list",
+				"Package Control: List Packages"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -74,10 +114,6 @@
 			[
 				"pack",
 				"Package Control: Upgrade Package"
-			],
-			[
-				"list",
-				"Package Control: List Packages"
 			],
 			[
 				"install",
@@ -140,25 +176,35 @@
 	[
 		"/H/website/tomhopkinscouk",
 		"/H/website/tomhopkinscouk/components",
-		"/H/website/tomhopkinscouk/components/slider-test",
 		"/H/website/tomhopkinscouk/resources",
-		"/H/website/tomhopkinscouk/resources/css",
-		"/H/website/tomhopkinscouk/resources/css/modules",
-		"/H/website/tomhopkinscouk/resources/css/modules/slider"
+		"/H/website/tomhopkinscouk/resources/js/vendor/jquery/dist",
+		"/H/website/tomhopkinscouk/resources/js/vendor/underscore"
 	],
 	"file_history":
 	[
-		"/H/website/tomhopkinscouk/components/slider-test/slider.html",
-		"/H/website/tomhopkinscouk/resources/css/modules/slider/slider.less",
+		"/H/website/tomhopkinscouk/components/test/test.html",
+		"/H/website/tomhopkinscouk/package.json",
+		"/H/website/tomhopkinscouk/resources/js/src/index.js",
 		"/H/website/tomhopkinscouk/resources/css/main.less",
+		"/H/website/tomhopkinscouk/gulpfile.js",
+		"/H/website/tomhopkinscouk/resources/js/src/import.js",
+		"/H/website/tomhopkinscouk/resources/js/dist/index.js",
+		"/H/website/tomhopkinscouk/resources/js/dist/index.js.map",
+		"/H/website/tomhopkinscouk/gruntfile.js",
+		"/H/website/tomhopkinscouk/resources/css/utility/ratios.less",
+		"/H/downloads/_ Luscious Hentai and Erotica_files/base-b2b130a401a6bd77f5185c014b733aa7c7f46a74.js",
+		"/C/Users/Tom/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Tom/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/H/website/tomhopkinscouk/resources/js/vendor/jquery/dist/jquery.slim.js",
+		"/H/website/tomhopkinscouk/resources/js/vendor/jquery/src/selector-sizzle.js",
+		"/H/website/tomhopkinscouk/components/slider-test/slider.html",
+		"/H/website/tomhopkinscouk/resources/js/vendor/jquery/src/selector-native.js",
+		"/H/website/tomhopkinscouk/resources/css/modules/slider/slider.less",
 		"/H/website/tomhopkinscouk/index.html",
 		"/H/website/tomhopkinscouk/component-styleguide/client/styleguide.js",
 		"/H/website/tomhopkinscouk/tomhopkinscouk.sublime-project",
-		"/H/website/tomhopkinscouk/gruntfile.js",
 		"/H/website/tomhopkinscouk/resources/css/main.css",
 		"/H/website/tomhopkinscouk/resources/css/main.css.map",
-		"/H/website/tomhopkinscouk/resources/js/src/index.js",
-		"/H/website/tomhopkinscouk/resources/js/dist/index.js",
 		"/H/website/tomhopkinscouk/resources/css/elements/type.less",
 		"/H/website/tomhopkinscouk/resources/css/base/fontfaces.less",
 		"/H/website/tomhopkinscouk/resources/css/base/variables/typevars.less",
@@ -169,7 +215,6 @@
 		"/H/website/tomhopkinscouk/components/test/header.html",
 		"/H/website/tomhopkinscouk/components/z-elements/01-colors.html",
 		"/H/website/tomhopkinscouk/components/test/header.json",
-		"/H/website/tomhopkinscouk/package.json",
 		"/H/website/tomhopkinscouk/resources/css/styleguide/base.less",
 		"/H/website/tomhopkinscouk/resources/css/base/variables/colour.less",
 		"/H/website/tomhopkinscouk/resources/css/elements/lists.less",
@@ -264,22 +309,11 @@
 		"/C/Users/Tom/Desktop/MakeOVPN.sh",
 		"/C/Users/Tom/Desktop/firewall-openvpn-rules.sh",
 		"/C/Users/Tom/Desktop/server.conf",
-		"/C/Users/Tom/Desktop/reactang/resources/js/app.js",
-		"/C/Users/Tom/Desktop/reactang/gruntfile.js",
-		"/C/Users/Tom/Desktop/New folder/css/main.less",
-		"/C/Users/Tom/Desktop/New folder/js/src/app.js",
-		"/C/Users/Tom/Desktop/New folder/index.html",
-		"/C/Users/Tom/Desktop/New folder/gruntfile.js",
-		"/C/Users/Tom/Desktop/New folder/package.json",
-		"/C/Users/Tom/Desktop/New folder/bower.json",
-		"/C/Users/Tom/Desktop/New folder/.bowerrc",
-		"/C/games/steamapps/common/Blood Bowl 2/Data/Config.xml",
-		"/C/Users/Tom/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/H/Games/Steam/steamapps/common/NEKOPARA Vol. 1/nekopara_vol1.cf"
+		"/C/Users/Tom/Desktop/reactang/resources/js/app.js"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -294,6 +328,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"grunt",
+			"grunt.task('build', ['browserify', 'less']);\ngrunt",
+			"makeArray",
+			"jQuery.makeArray",
+			"jQuery.fn.init",
+			"jQuery",
 			"grey-dark",
 			"header",
 			"x=\"0\" y=\"0\" width=\"100%\" height=\"100%\"",
@@ -393,8 +433,280 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1291,
+								1291
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "javascript"
+							},
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 432.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/js/src/import.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 334,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								593,
+								598
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],

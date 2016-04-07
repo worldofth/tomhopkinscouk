@@ -1,4 +1,4 @@
-import {square, MyClass} from './import';
+import {sum, square, MyClass} from './import';
 // 25
 console.log(square(5));
 
@@ -11,3 +11,5 @@ var x = new MyClass(cred);
 
 //Ritesh Kumar
 console.log(x.getName());
+
+console.log(sum(7,8));
