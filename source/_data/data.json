@@ -1,0 +1,458 @@
+{
+	"key": "value",
+	"key2": "use this for variables you want to load globally",
+	"title": "Sit Cursus Etiam Ridiculus Malesuada1",
+	"img": {
+		"avatar": {
+			"src": "http://placeimg.com/100/100/people",
+			"alt": "Avatar"
+		},
+		"square": {
+			"src": "http://placeimg.com/300/300/nature",
+			"alt": "Square"
+		},
+		"rectangle": {
+			"src": "http://placeimg.com/400/300/tech",
+			"alt": "Rectangle"
+		},
+		"landscape-4x3": {
+			"src": "http://placeimg.com/400/300/tech",
+			"alt": "4x3 Image"
+		},
+		"landscape-16x9": {
+			"src": "http://placeimg.com/640/360/tech",
+			"alt": "16x9 Image"
+		}
+	},
+	"svg":{
+		"id": "default",
+		"title": "default"
+	},
+	"headline": {
+		"short": "Lorizzle pimpin' dolizzle sit amet I",
+		"medium": "Rizzle adipiscing elizzle. Nullam sapien velizzle, shit volutpizzle, my"
+	},
+	"excerpt": {
+		"short": "Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus",
+		"medium": "Izzle crazy tempizzle sizzle. We gonna chung gangsta get down get down fo shizzle turpizzle. Away break it down black. Pellentesque bling bling rhoncus fo shizzle. In hac the bizzle platea dictumst. Black dapibizzle. Crackalackin.",
+		"long": "Curabitizzle fo shizzle diam quizzle nisi nizzle mollizzle. Suspendisse boofron. Morbi odio. Sure pizzle. Crazy orci. Shut the shizzle up maurizzle get down get down, check out this a, go to hizzle sit amizzle, malesuada izzle, pede. Pellentesque gravida. Vestibulizzle check it out mi, volutpat izzle, shiz sed, shiznit sempizzle, da bomb. Funky fresh in ipsum. Da bomb volutpat felis vizzle daahng dawg. Crizzle quis dope izzle fo shizzle my ni."
+	},
+	"description": "Fizzle crazy tortor. Sed rizzle. Ass pimpin' dolor dapibizzle turpis tempizzle fo shizzle my nizzle. Maurizzle pellentesque its fo rizzle izzle turpis. Get down get down we gonna chung nizzle. Shizzlin dizzle eleifend rhoncizzle break it down. In yo ghetto platea dictumst. Bling bling dapibizzle. Curabitur break yo neck, yall fo, pretizzle eu, go to hizzle dope, own yo' vitae, nunc. Bizzle suscipizzle. Ass semper velit sizzle fo.",
+	"url": "http://lorizzle.nl/",
+	"name": {
+		"first": "Junius",
+		"firsti": "J",
+		"middle": "Marius",
+		"middlei": "M",
+		"last": "Koolen",
+		"lasti": "K"
+	},
+	"date": "2 days ago",
+	"period": {
+		"short": "2 hours ago",
+		"medium": "2 days ago",
+		"long": "2 weeks ago"
+	},
+	"year": {
+		"long": "2013",
+		"short": "13"
+	},
+	"month": {
+		"long": "January",
+		"short": "Jan",
+		"digit": "01"
+	},
+	"dayofweek": {
+		"long": "Sunday",
+		"short": "Sun"
+	},
+	"day": {
+		"long": "01",
+		"short": "1",
+		"ordinal": "st"
+	},
+	"hour": {
+		"long": "06",
+		"short": "6",
+		"military": "06",
+		"ampm": "am"
+	},
+	"minute": {
+		"long": "20",
+		"short": "20"
+	},
+	"seconds": "31",
+
+	"mainContent": "<h2>Bluehost Open Sources Scripts used to update WordPress websites - h2</h2><p><strong>Bluehost have recently open sourced their in-house script that can be used to automatically update WordPress websites.</strong></p><p>Sometime back, Bluehost had noticed that majority of support requests and issues related to hacked websites arose from WordPress users who were running obsolete versions of WordPress.</p><p>As such, Bluehost came up with an ambitious yet effective plan: their wrote a script that would automatically check for outdated versions of WordPress on Bluehost’s servers, and update them accordingly. The script, coded in Perl and working via WP CLI, would first take a backup of the website, then update WordPress and restore data, and finally perform a check to see if everything is working normal. If not, it would restore the backup.</p><p>After successful implementation, Bluehost noticed that support requests dropped by 18%. In fact, this method of Bluehost received praise from Matt Mullenweg him§self in his State of the Word 2015 address last year in December.</p><p>Now, you can play with that script too — Bluehost have released it as open source on GitHub, and you can grab it for your projects or other ventures.</p>",
+	"mainContentRight": "<h3>Ipsum Sem Ullamcorper Cras Sollicitudin - h3</h3><p>I started creating websites back around 2005.  I’m not a techno geek type at all, but I was able to figure things out and get some profitable sites set up.  Many friends and relatives have shown an interest in my projects over the years.  This is mostly because they noticed that I was making some money from my ventures.  I willingly explained every step of setting up a site to them, but most of them are scared to get started because they don’t know where to start. This website is being built as an example for my friends.</p><h4>Why Print? - h4</h4><p>There are lots of wonderful reasons for getting your own blog set up and published.  In today’s world, having a blog is almost like having a business card.  You can use it for any number of things. Some good reasons that pop to mind include journaling your life, creating a special place to tell the world about family events, self promotion, selling physical or informational products (making money), becoming a part of a larger community you are interested in, showing off a favorite collection…</p>",
+	"sectionColumnClasses": "",
+
+	"pageBreadCrumb": "Breadcrumb",
+	"pageTitle": "Page Title",
+	"isHomePage": false,
+	"headerIcon": "head-developers",
+
+	"address": "<strong>Servon Design Limited</strong><br>Lea Farm Barn, Plough Lane,<br>Hazeley Lea, Hartley Wintney,<br>Hampshire. RG27 8ND",
+	"compReg": "Co. Reg No. 1234567890",
+	"phoneNumber": "0845 130 8176",
+	"phoneNumberLink": "tel:448451308176",
+	"email": "sales@servondesign.co.uk",
+
+	"clientList": {
+		"large": [
+			{
+				"svg": {
+					"id": "a2-dominion",
+					"title": "a2-dominion"
+				}
+			},
+			{
+				"svg": {
+					"id": "dilys-jones-associates",
+					"title": "dilys-jones-associates"
+				}
+			},
+			{
+				"svg": {
+					"id": "heyford-park-regeneration",
+					"title": "heyford-park-regeneration"
+				}
+			},
+			{
+				"svg": {
+					"id": "hills-residential",
+					"title": "hills-residential"
+				}
+			},
+			{
+				"svg": {
+					"id": "kpmg",
+					"title": "kpmg"
+				}
+			},
+			{
+				"svg": {
+					"id": "luff-wilkin",
+					"title": "luff-wilkin"
+				}
+			},
+			{
+				"svg": {
+					"id": "mccarthy-holden-green",
+					"title": "mccarthy-holden-green"
+				}
+			},
+			{
+				"svg": {
+					"id": "millennium-copthorne",
+					"title": "millennium-copthorne"
+				}
+			}
+		],
+		"small": [
+			{
+				"svg": {
+					"id": "morgan-sindall",
+					"title": "morgan-sindall"
+				}
+			},
+			{
+				"svg": {
+					"id": "olives-restaurant-kensington",
+					"title": "olives-restaurant-kensington"
+				}
+			},
+			{
+				"svg": {
+					"id": "reade-signs-01",
+					"title": "reade-signs-01"
+				}
+			},
+			{
+				"svg": {
+					"id": "singapore-airlines",
+					"title": "singapore-airlines"
+				}
+			},
+			{
+				"svg": {
+					"id": "TPG",
+					"title": "TPG"
+				}
+			},
+			{
+				"svg": {
+					"id": "walmsley-estate-agents",
+					"title": "walmsley-estate-agents"
+				}
+			}
+		]
+	},
+
+	"pageIntro": {
+		"background": "page-intro--grey",
+		"classes": "page-intro--small",
+		"title": "all business",
+		"subtitle": "are built upon relationships",
+		"content": "<p>To us, <strong>design is more than just pretty pictures</strong>, it’s about understanding a brand, the atmosphere it presents and the environment it operates in. We bring together a genuine passion and fascination with creativity coupled with a realistic and determined view that <strong>design should sell</strong>.<p>"
+	},
+
+	"hero": {
+		"showIntro": true,
+		"image": {
+			"path": "tmp-hero.jpg",
+			"title": "tmp-hero"
+		}
+	},
+
+	"quickLinks": {
+		"show": true,
+		"background": "quick-links--grey",
+		"items": [
+			{"active": true, "link": "#", "name": "Estate & Letting Agents"},
+			{"active": false, "link": "#", "name": "Property Developers"},
+			{"active": false, "link": "#", "name": "Travel & Leisure"},
+			{"active": false, "link": "#", "name": "Financial"},
+			{"active": false, "link": "#", "name": "Healthcare & Wellbeing"},
+			{"active": false, "link": "#", "name": "Services & Manufacturing"}
+		]
+	},
+
+	"categories": "Orange Red",
+	"blog-entry": {
+		"title": "Bluehost Open Sources Scripts used to update WordPress websites",
+		"content": "<img class=\"image\" src=\"/images/tmp-image-large.jpg\"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis recusandae rerum facere consectetur neque dolorum accusantium. Cupiditate dolorum, perspiciatis voluptate esse numquam, eveniet quis aut illo, quo labore laboriosam quod.</p><img class=\"image--inline\" src=\"/images/tmp-image.jpg\"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis recusandae rerum facere consectetur neque dolorum accusantium. Cupiditate dolorum, perspiciatis voluptate esse numquam, eveniet quis aut illo, quo labore laboriosam quod.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis recusandae rerum facere consectetur neque dolorum accusantium. Cupiditate dolorum, perspiciatis voluptate esse numquam, eveniet quis aut illo, quo labore laboriosam quod.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis recusandae rerum facere consectetur neque dolorum accusantium. Cupiditate dolorum, perspiciatis voluptate esse numquam, eveniet quis aut illo, quo labore laboriosam quod.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis recusandae rerum facere consectetur neque dolorum accusantium. Cupiditate dolorum, perspiciatis voluptate esse numquam, eveniet quis aut illo, quo labore laboriosam quod.</p><img class=\"image--inline image--right\" src=\"/images/tmp-image.jpg\"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis recusandae rerum facere consectetur neque dolorum accusantium. Cupiditate dolorum, perspiciatis voluptate esse numquam, eveniet quis aut illo, quo labore laboriosam quod.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis recusandae rerum facere consectetur neque dolorum accusantium. Cupiditate dolorum, perspiciatis voluptate esse numquam, eveniet quis aut illo, quo labore laboriosam quod.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis recusandae rerum facere consectetur neque dolorum accusantium. Cupiditate dolorum, perspiciatis voluptate esse numquam, eveniet quis aut illo, quo labore laboriosam quod.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis recusandae rerum facere consectetur neque dolorum accusantium. Cupiditate dolorum, perspiciatis voluptate esse numquam, eveniet quis aut illo, quo labore laboriosam quod.</p>",
+		"metaclass": "meta--inline",
+		"categories": "orange",
+		"name": {
+			"first": "Kevin",
+			"last": "Williams"
+		},
+		"date": "2 days ago"
+	},
+	"blogSidebar": {
+		"previousPosts": [
+			{
+				"firstPreviousPost": true,
+				"title": "Bluehost Open Sources Scripts used to update WordPress websites",
+				"description": "Bluehost have recently open sourced their in-house script that can be used to automatically update WordPress",
+				"categories": false,
+				"metaclass": "",
+				"name": {
+					"first": "Kevin",
+					"last": "Williams"
+				},
+				"date": "2 days ago"
+			},
+			{
+				"firstPreviousPost": false,
+				"title": "Sit Cursus Etiam Ridiculus Malesuada",
+				"description": "Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus",
+				"categories": false,
+				"name": {
+					"first": "Tom",
+					"last": "Hopkins"
+				},
+				"date": "2 Weeks ago"
+			},
+			{
+				"firstPreviousPost": false,
+				"title": "Morbi leo risus, porta ac consectetur ac",
+				"description": "Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Maece",
+				"categories": false,
+				"name": {
+					"first": "Kevin",
+					"last": "Williams"
+				},
+				"date": "3 Weeks ago"
+			}
+		]
+	},
+
+	"sector": {
+		"headerImage":{
+			"path": "tmp-estate-head.png",
+			"title": "tmp-estate-head"
+		},
+		"headerTitle": "We're <strong>key to the success</strong> of many estate agents",
+		"headerClasses": "",
+		"headerImageLoad": false,
+		"headerImageWrapClasses": "section__header-back--estate-agents",
+		"intro": {
+			"title": "Having worked with a broad range of <strong>property developers..</strong>",
+			"content": "..from builders of bespoke and individual homes to those constructing social housing, regenerating brownfield sites or creating whole new communities – <strong>we understand your markets,</strong> potential buyers and business objectives."
+		},
+		"mainContent": "<p><strong>We understand how important targeting is in this sector. </strong> Communicating the benefits of a luxury, bespoke and executive home is very different from doing so for city-centre apartments aimed at young professionals or down-sizers.</p><p>We work through our 'Ask, Access, Analyse and Action' approach to enhance your branding. Then we focus on the right target audiences - using demographics like age, location and lifestyle - to drive strategies and campaigns that deliver interest, viewings and sales.</p><p>We know you want to maximise reservations, completions and returns per square foot. So we'll leverage all the opportunities offered by the web, from e-mail marketing to social media, to achieve your objectives.</p><p>However, we also deliver results offline, too. We know traditional design and print for literature and signage still delivers ROI for developers and is still expected by buyers.</p>",
+		"associatedItemsTitle": "Associated Somethings",
+		"associatedItems": [
+			{
+				"image" : {
+					"path": "client/kpmg.svg",
+					"title": "kpmg"
+				}
+			},
+			{
+				"image" : {
+					"path": "client/kpmg.svg",
+					"title": "kpmg"
+				}
+			},
+			{
+				"image" : {
+					"path": "client/kpmg.svg",
+					"title": "kpmg"
+				}
+			},
+			{
+				"image" : {
+					"path": "client/kpmg.svg",
+					"title": "kpmg"
+				}
+			},
+			{
+				"image" : {
+					"path": "client/kpmg.svg",
+					"title": "kpmg"
+				}
+			}
+		],
+		"associatedServicesTitle": "Associated Somethings",
+		"associatedServices": [
+			{
+				"serviceLink": "#",
+				"serviceIcon": "service-digital-marketing.svg",
+				"serviceName": "Digital Marketing"
+			},
+			{
+				"serviceLink": "#",
+				"serviceIcon": "service-photography.svg",
+				"serviceName": "Photography"
+			},
+			{
+				"serviceLink": "#",
+				"serviceIcon": "service-webdesign.svg",
+				"serviceName": "Webdesign"
+			},
+			{
+				"serviceLink": "#",
+				"serviceIcon": "service-video.svg",
+				"serviceName": "Video"
+			},
+			{
+				"serviceLink": "#",
+				"serviceIcon": "service-business-analysis.svg",
+				"serviceName": "Business analysis"
+			}
+		],
+		"associatedItemsText": "Don’t see your software listed? Don’t worry we have integrated into almost every software available. Give us a call us to see if we can help.",
+		"pullout": {
+			"color": "pullout-grid--purple",
+			"title": "Our recent successes in this sector have included",
+			"image": "tmp-pullout.jpg",
+			"leftContent": "<p><strong>A large development group..</strong> with multiple housing developments and subsidiary companies had organisation-wide issues with consistency, cohesion and marketing management. In fact, multiple agencies were developing differing sub-brands and collateral packs. There were even multiple web domains, registered with multiple ISP’s and multiple hosting.</p><p>The result was a creative and administrative mess. We have brought all group businesses back on brand and set up a central point for all online activities, streamlining everything from look to lead generation and recording, successfully driving interest and sales of over 3,000 homes across two flagship new communities.</p>",
+			"rightContent": "<p><strong>Our challenge..</strong> was to help a client who was needed to market and sell two distinctly different developments to two distinctly different target audiences. The first was to speed up the sale of retirement homes in Bournemouth, where buyers are notoriously slow to make decisions, especially when the sales process takes multiple interactions. The second was to promote new apartments on the outskirts of Bristol to young, affluent first time and professional couple buyers.</p><p>A number of innovations and initiatives paid dividends for both developments. In Bournemouth we utilised everything from MacMillan Coffee Morning events and classic, traditional direct mail to town centre ad-vans and the online targeting of the grown-up children of retirees. For the Bristol development we targeted potential buyers  online, via Google adwords and Facebook campaigns, while also promoting the opportunity to local hospital NHS staff and to buy-to-let investors in London. As a result, both developments sold out in the target time.</p>"
+		}
+	},
+
+	"showHROnlyOnMobile": false,
+
+	"qna": {
+		"hasAnimation": true,
+		"qnaTitle": "Work with us to get growth, without the growing pains",
+		"questions": [
+			{
+				"question": "It's noisy out there in your markets",
+				"answer": "Trust us to help you cut through the clamour to success."
+			},
+			{
+				"question": "It's not about short-term gain but long-term partnership",
+				"answer": "From strategy and big ideas to the tiny details and efficient delivery, we'll achieve clarity and consistency, right across all your brand touchpoints. Then review, refine, refresh and repeat."
+			},
+			{
+				"question": "Whether you want to start, revitalise or grow a business",
+				"answer": "We'll deliver results – on brief, brand, budget and time."
+			}
+		],
+		"buttons": [
+			{
+				"colour": "",
+				"modalID": "full-form",
+				"text": "i'm ready to talk...",
+				"icon": "cta-book"
+			},
+			{
+				"colour": "contact-form__btn--cyan",
+				"modalID": "small-form",
+				"text": "Get your FREE guide...",
+				"icon": "cta-download"
+			}
+		],
+		"contactDescription": "<p>If you're just curious, then why not download<br> our <strong>FREE</strong> &lsquo;<b class=\"cyan\">10 cool lead conversion tactics</b>&lsquo; guide<br> for your website</p>"
+	},
+
+	"gallery": [
+		{
+			"size": "735x1099",
+			"thumbnail": {
+				"path": "gallery/belgarum1.jpg",
+				"title": "belgarum1"
+			},
+			"galleryContent": false,
+			"imageLink": "gallery/belgarum1.jpg",
+			"title": "belgarum1",
+			"description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos vitae fugiat a tempora quod temporibus distinctio, esse recusandae. Repellat blanditiis exercitationem aut porro ipsam perspiciatis inventore ratione error molestias enim.</p>"
+		},
+		{
+			"size": "735x1207",
+			"thumbnail": {
+				"path": "gallery/belarum2.jpg",
+				"title": "belarum2"
+			},
+			"galleryContent": false,
+			"imageLink": "gallery/belarum2.jpg",
+			"title": "belarum2",
+			"description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos vitae fugiat a tempora quod temporibus distinctio, esse recusandae. Repellat blanditiis exercitationem aut porro ipsam perspiciatis inventore ratione error molestias enim.</p>"
+		},
+		{
+			"size": "735x1797",
+			"thumbnail": {
+				"path": "gallery/reade.png",
+				"title": "reade"
+			},
+			"galleryContent": false,
+			"imageLink": "gallery/reade.png",
+			"title": "reade",
+			"description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos vitae fugiat a tempora quod temporibus distinctio, esse recusandae. Repellat blanditiis exercitationem aut porro ipsam perspiciatis inventore ratione error molestias enim.</p>"
+		},
+		{
+			"size": false,
+			"thumbnail": false,
+			"galleryContent": "<h3>Some content here</h3>",
+			"imageLink": false,
+			"title": "",
+			"description": ""
+		},
+		{
+			"size": "735x1797",
+			"thumbnail": {
+				"path": "gallery/reade.png",
+				"title": "reade"
+			},
+			"galleryContent": false,
+			"imageLink": "gallery/reade.png",
+			"title": "reade",
+			"description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos vitae fugiat a tempora quod temporibus distinctio, esse recusandae. Repellat blanditiis exercitationem aut porro ipsam perspiciatis inventore ratione error molestias enim.</p>"
+		},
+		{
+			"size": "735x1797",
+			"thumbnail": {
+				"path": "gallery/walmsley1.jpg",
+				"title": "walmsley1"
+			},
+			"galleryContent": false,
+			"imageLink": "gallery/walmsley1.jpg",
+			"title": "walmsley1",
+			"description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos vitae fugiat a tempora quod temporibus distinctio, esse recusandae. Repellat blanditiis exercitationem aut porro ipsam perspiciatis inventore ratione error molestias enim.</p>"
+		}
+	]
+}
