@@ -218,7 +218,7 @@ function buildSass(){
     .pipe(sourcemaps.init())
     .pipe(sass({
       //outputStyle: 'compressed'
-    }).on('error', sass.logError))
+    }).on('error', console.log))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(resolvePath(paths().source.css)));
 }
@@ -237,5 +237,5 @@ exports["watch:sass"] = watchSass;
  * COMPOUND TASKS
 ******************************************************/
 gulp.task('patternlab:watch', gulp.series('patternlab:build', watch, watchSass));
-gulp.task('patternlab:serve', gulp.series('patternlab:build', 'patternlab:connect', watch, watchSass));
+gulp.task('patternlab:serve', gulp.series(buildSass, 'patternlab:build', 'patternlab:connect', watch, watchSass));
 gulp.task('default', gulp.series('patternlab:serve'));
