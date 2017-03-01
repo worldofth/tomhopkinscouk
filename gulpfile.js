@@ -224,10 +224,10 @@ function buildSass(){
 }
 
 function watchSass(){
-  gulp.watch(resolvePath(paths().source.css) + '/**/*.scss', { awaitWriteFinish: true }, buildSass)
-  .on('change',  function(path){
+  gulp.watch(resolvePath(paths().source.css) + '/**/*.scss', { awaitWriteFinish: true })
+  .on('change',  gulp.series(buildSass, function(path){
     console.log('File ' + path + ' was changed');
-  });
+  }));
 }
 
 exports["build:sass"] = buildSass;
@@ -237,5 +237,5 @@ exports["watch:sass"] = watchSass;
  * COMPOUND TASKS
 ******************************************************/
 gulp.task('patternlab:watch', gulp.series('patternlab:build', watch, watchSass));
-gulp.task('patternlab:serve', gulp.series(buildSass, 'patternlab:build', 'patternlab:connect', watch, watchSass));
+gulp.task('patternlab:serve', gulp.series(buildSass, 'patternlab:build', 'patternlab:connect', gulp.parallel(watch, watchSass)));
 gulp.task('default', gulp.series('patternlab:serve'));

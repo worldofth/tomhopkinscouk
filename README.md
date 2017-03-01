@@ -38,3 +38,9 @@ when click on the image they animate out into full screen with small blur
 look at codrops for ideas, know they have some blog grid view that animates from the indivdual grid items
 
 ## links
+
+
+
+### ideas
+look at http://www.palettable.io/4889D9
+think about picking some colours then finding stuff based on colour thoery like complementry etc.

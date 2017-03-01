@@ -1,0 +1,29 @@
+.header{
+	&__title{
+		font-size: 8rem;
+		margin-bottom: 50px;
+	}
+
+	&__nav{
+		display: flex;
+		justify-content: space-between;
+		width: 60vw;
+		max-width: 600px;
+
+		&-left,
+		&-right{
+			display: flex;
+			list-style: none;
+		}
+
+		&-left,
+		li:first-child{
+			margin-right: 15px;
+		}
+
+		&-right,
+		li:last-child{
+			margin-left: 15px;
+		}
+	}
+}

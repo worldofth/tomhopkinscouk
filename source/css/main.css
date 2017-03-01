@@ -71,8 +71,58 @@ button {
     outline: none;
     box-shadow: none; }
 
-.page {
+nav ul, nav ol {
+  margin: 0;
+  padding: 0; }
+
+.header__title {
+  font-size: 8rem;
+  margin-bottom: 50px; }
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  max-width: 600px; }
+  .header__nav-left, .header__nav-right {
+    display: flex;
+    list-style: none; }
+  .header__nav-left,
+  .header__nav li:first-child {
+    margin-right: 15px; }
+  .header__nav-right,
+  .header__nav li:last-child {
+    margin-left: 15px; }
+
+.section--light {
+  background-color: #efefef; }
+
+.section--med {
+  background-color: #888; }
+
+.section--dark {
+  background-color: #3e3e3e;
+  color: #eee; }
+
+.l-page {
   width: 100vw;
   height: 100vh; }
+
+.l-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.l-split {
+  display: flex;
+  align-items: stretch;
+  max-width: 2560px; }
+  .l-split > * {
+    flex: 1 1 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
 
 /*# sourceMappingURL=main.css.map */
