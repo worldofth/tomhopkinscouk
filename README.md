@@ -37,8 +37,15 @@ have them in date order
 when click on the image they animate out into full screen with small blur
 look at codrops for ideas, know they have some blog grid view that animates from the indivdual grid items
 
-## links
+## playground (later)
+similar to portoflio, but showing off some of my experients
+this can be a later edition
+but will probs some together through the creation of this
+can also have partial discussion on functional programming 
+css architectures etc.
+can use codepen.io for posts probs and playground stuff
 
+## links
 
 
 ### ideas
