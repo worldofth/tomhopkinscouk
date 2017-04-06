@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1488493737530,
+  "timestamp": 1489948695432,
   "graph": {
     "options": {
       "directed": true,
@@ -9,165 +9,165 @@
     },
     "nodes": [
       {
-        "v": "00-example-elements\\00-elements\\01-colors.mustache",
+        "v": "00-example-elements/00-elements/01-colors.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "00-example-elements\\00-elements\\02-animation.mustache",
+        "v": "00-example-elements/00-elements/02-animation.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "00-example-elements\\00-elements\\03-headers.mustache",
+        "v": "00-example-elements/00-elements/03-headers.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "00-example-elements\\00-elements\\04-fonts.mustache",
+        "v": "00-example-elements/00-elements/04-fonts.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "00-example-elements\\00-elements\\05-inline-elements.mustache",
+        "v": "00-example-elements/00-elements/05-inline-elements.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "00-example-elements\\00-elements\\06-links.mustache",
+        "v": "00-example-elements/00-elements/06-links.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "00-example-elements\\00-elements\\07-buttons.mustache",
+        "v": "00-example-elements/00-elements/07-buttons.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "00-example-elements\\00-elements\\08-lists.mustache",
+        "v": "00-example-elements/00-elements/08-lists.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "00-example-elements\\00-elements\\09-table.mustache",
+        "v": "00-example-elements/00-elements/09-table.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "00-example-elements\\00-elements\\10-address.mustache",
+        "v": "00-example-elements/00-elements/10-address.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "00-example-elements\\00-elements\\11-blockquotes.mustache",
+        "v": "00-example-elements/00-elements/11-blockquotes.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "00-example-elements\\00-elements\\12-ratios.mustache",
+        "v": "00-example-elements/00-elements/12-ratios.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "00-example-elements\\00-elements\\13-type.mustache",
+        "v": "00-example-elements/00-elements/13-type.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "01-header\\01-components\\header.mustache",
+        "v": "01-header/01-components/header.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/11-design-03-page-home\\11-design-03-page-home.rendered.html",
+          "lineagePath": "../../patterns/11-design-03-page-home/11-design-03-page-home.rendered.html",
           "lineagePattern": "design-home"
         }
       },
       {
-        "v": "02-about\\01-components\\about.mustache",
+        "v": "02-about/01-components/about.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/11-design-03-page-home\\11-design-03-page-home.rendered.html",
+          "lineagePath": "../../patterns/11-design-03-page-home/11-design-03-page-home.rendered.html",
           "lineagePattern": "design-home"
         }
       },
       {
-        "v": "03-skills\\01-components\\description.mustache",
+        "v": "03-skills/01-components/description.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/03-skills-01-components-skills\\03-skills-01-components-skills.rendered.html",
+          "lineagePath": "../../patterns/03-skills-01-components-skills/03-skills-01-components-skills.rendered.html",
           "lineagePattern": "skills-skills"
         }
       },
       {
-        "v": "03-skills\\01-components\\skill-progs.mustache",
+        "v": "03-skills/01-components/skill-progs.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/03-skills-01-components-skills\\03-skills-01-components-skills.rendered.html",
+          "lineagePath": "../../patterns/03-skills-01-components-skills/03-skills-01-components-skills.rendered.html",
           "lineagePattern": "skills-skills"
         }
       },
       {
-        "v": "03-skills\\01-components\\skills.mustache",
+        "v": "03-skills/01-components/skills.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/11-design-03-page-home\\11-design-03-page-home.rendered.html",
+          "lineagePath": "../../patterns/11-design-03-page-home/11-design-03-page-home.rendered.html",
           "lineagePattern": "design-home"
         }
       },
       {
-        "v": "04-projects\\01-components\\projects.mustache",
+        "v": "04-projects/01-components/projects.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/11-design-03-page-home\\11-design-03-page-home.rendered.html",
+          "lineagePath": "../../patterns/11-design-03-page-home/11-design-03-page-home.rendered.html",
           "lineagePattern": "design-home"
         }
       },
       {
-        "v": "05-links\\01-components\\links.mustache",
+        "v": "05-links/01-components/links.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/11-design-03-page-home\\11-design-03-page-home.rendered.html",
+          "lineagePath": "../../patterns/11-design-03-page-home/11-design-03-page-home.rendered.html",
           "lineagePattern": "design-home"
         }
       },
       {
-        "v": "11-design\\03-page\\home-notes.mustache",
+        "v": "11-design/03-page/home-notes.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "11-design\\03-page\\home.mustache",
+        "v": "11-design/03-page/home.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "util\\svg-show.mustache",
+        "v": "util/svg-show.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "H:\\website\\tomhopkinscouk\\source\\_meta\\_00-head.mustache",
+        "v": "/Users/tomhopkins/projects/tomhopkinscouk/source/_meta/_00-head.mustache",
         "value": {
           "compileState": null
         }
       },
       {
-        "v": "H:\\website\\tomhopkinscouk\\source\\_meta\\_01-foot.mustache",
+        "v": "/Users/tomhopkins/projects/tomhopkinscouk/source/_meta/_01-foot.mustache",
         "value": {
           "compileState": null
         }
@@ -175,38 +175,38 @@
     ],
     "edges": [
       {
-        "v": "03-skills\\01-components\\skills.mustache",
-        "w": "03-skills\\01-components\\description.mustache",
+        "v": "03-skills/01-components/skills.mustache",
+        "w": "03-skills/01-components/description.mustache",
         "value": {}
       },
       {
-        "v": "03-skills\\01-components\\skills.mustache",
-        "w": "03-skills\\01-components\\skill-progs.mustache",
+        "v": "03-skills/01-components/skills.mustache",
+        "w": "03-skills/01-components/skill-progs.mustache",
         "value": {}
       },
       {
-        "v": "11-design\\03-page\\home.mustache",
-        "w": "01-header\\01-components\\header.mustache",
+        "v": "11-design/03-page/home.mustache",
+        "w": "01-header/01-components/header.mustache",
         "value": {}
       },
       {
-        "v": "11-design\\03-page\\home.mustache",
-        "w": "02-about\\01-components\\about.mustache",
+        "v": "11-design/03-page/home.mustache",
+        "w": "02-about/01-components/about.mustache",
         "value": {}
       },
       {
-        "v": "11-design\\03-page\\home.mustache",
-        "w": "03-skills\\01-components\\skills.mustache",
+        "v": "11-design/03-page/home.mustache",
+        "w": "03-skills/01-components/skills.mustache",
         "value": {}
       },
       {
-        "v": "11-design\\03-page\\home.mustache",
-        "w": "04-projects\\01-components\\projects.mustache",
+        "v": "11-design/03-page/home.mustache",
+        "w": "04-projects/01-components/projects.mustache",
         "value": {}
       },
       {
-        "v": "11-design\\03-page\\home.mustache",
-        "w": "05-links\\01-components\\links.mustache",
+        "v": "11-design/03-page/home.mustache",
+        "w": "05-links/01-components/links.mustache",
         "value": {}
       }
     ]
