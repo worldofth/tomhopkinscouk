@@ -2881,6 +2881,10 @@ styleguidekit-mustache-default@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/styleguidekit-mustache-default/-/styleguidekit-mustache-default-3.1.0.tgz#1e74b9bcd6bc1ac8fcd44280ba7521720eeb5b6d"
 
+stylelint-config-standard@^16.0.0:
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-16.0.0.tgz#bb7387bff1d7dd7186a52b3ebf885b2405d691bf"
+
 supports-color@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-0.2.0.tgz#d92de2694eb3f67323973d7ae3d8b55b4c22190a"

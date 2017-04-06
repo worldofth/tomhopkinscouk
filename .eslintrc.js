@@ -1,13 +1,14 @@
-{
-	"env":{
+module.exports = {
+	"env": {
 		"es6": true,
-		"browser" : true,
-		"jquery": true
+		"browser": true,
+		"node": true
 	},
-	"extends": "eslint:recommended",
+    "extends": "eslint:recommended",
 	"parserOptions": {
-		"sourceType": "module"
-	},
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
 	"rules": {
 		"no-console": 0,
 		"indent": [
@@ -16,7 +17,7 @@
 		],
 		"linebreak-style": [
 			2,
-			"linux"
+			"unix"
 		],
 		"quotes": [
 			2,
@@ -27,4 +28,4 @@
 			"always"
 		]
 	}
-}
+};
