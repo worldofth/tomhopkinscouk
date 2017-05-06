@@ -1,0 +1,187 @@
+// Colours
+$active: $charcoal;
+$active-highlight: $grey;
+$background: $grey;
+$shadow: rgba(0, 0, 0, 0.2);
+
+// Timings
+$background-out: $userOutP3;
+$background-in: $userOut;
+
+$border-out: $userOut;
+$border-in: 50ms;
+
+$shadow-out: $background-out;
+$shadow-in: $userIn;
+
+.o-btn{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: $active;
+	padding: 6px 12px;
+
+	&:hover,
+	&:focus{
+		color: $active-highlight;
+	}
+
+	&::before,
+	&::after{
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		width: 100%;
+		height: 1px;
+		background-color: $active;
+	}
+
+	&::before,
+	&::after,
+	&:active::before,
+	&:active::after{
+		opacity: 0;
+		transition: transform $border-out linear, opacity 0ms $border-out linear;
+	}
+
+	&::before{
+		top: 0;
+	}
+
+	&::after{
+		bottom: 0;
+	}
+
+	&:hover::before,
+	&:focus::before,
+	&:hover::after,
+	&:focus::after{
+		opacity: 1;
+		transition: transform $border-out $easeOut;
+	}
+
+	&:hover::before,
+	&:focus::before{
+		transform: translateY(-2px);
+	}
+
+	&:hover::after,
+	&:focus::after{
+		transform: translateY(2px);
+	}
+
+	&:active::before{
+		transform: translateY(2px);
+	}
+
+	&:active::after{
+		transform: translateY(-2px);
+	}
+
+	&--fixed-width{
+		width: 150px;
+	}
+
+	&__text{
+		z-index: 2;
+	}
+
+	&__background,
+	&__background::before,
+	&__background::after,
+	&__hover-background{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	&__background{
+		&::after,
+		&::before{
+			content: '';
+		}
+
+		&::after{
+			background-color: $background;
+			opacity: 0.6;
+		}
+
+		&::before{
+			background-color: $shadow;
+			filter: blur(3px);
+			opacity: 0;
+			transition: transform $shadow-in $easeOut, opacity $shadow-in $easeOut;
+		}
+	}
+
+	&:hover &__background::before,
+	&:focus &__background::before{
+		transform: translateX(6px);
+		opacity: 0.8;
+		transition: transform $shadow-out $easeOut, opacity $shadow-out $easeOut;
+	}
+
+	&--right:hover &__background::before,
+	&--right:focus &__background::before{
+		transform: translateX(-6px);
+	}
+
+	&--centred-animation:hover &__background::before,
+	&--centred-animation:focus &__background::before{
+		transform: scaleX(1.1);
+	}
+
+	&__hover-background{
+		background-color: $active;
+		opacity: 0;
+		transform-origin: left;
+		animation-name: hoverBackgroundOut;
+		animation-duration: $background-in;
+		animation-fill-mode: forwards;
+		animation-timing-function: $easeOut;
+		transition: opacity 0ms $userOut linear;
+	}
+
+	&--right &__hover-background{
+		transform-origin: right;
+	}
+
+	&--centred-animation &__hover-background{
+		transform-origin: center;
+	}
+
+	&:hover &__hover-background,
+	&:focus &__hover-background{
+		opacity: 0.9;
+		animation-name: hoverBackgroundIn;
+		animation-duration: $background-out;
+		animation-fill-mode: forwards;
+		animation-timing-function: $easeOut;
+		transition: none;
+	}
+}
+
+@keyframes hoverBackgroundIn{
+	from{
+		transform: scaleX(0.7);
+	}
+
+	to{
+		transform: none;
+	}
+}
+
+@keyframes hoverBackgroundOut{
+	from{
+		transform: none;
+	}
+
+	to{
+		transform: scaleX(0);
+	}
+}

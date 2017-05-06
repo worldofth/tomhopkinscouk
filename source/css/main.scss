@@ -1,30 +1,60 @@
 //====================
-// Vars/Mixins
+// Main
+// Author: Tom Hopkins - tom@tom-hopkins.co.uk
 //====================
-@import "base/mixins";
-@import "base/variables";
 
-//====================
-// Base
-//====================
-@import "base/reset";
+// pre setting tools
+// ===================
+@import "01-tools/imports";
 
+// settings
 //====================
-// Elements
-//====================
-@import "elements/html";
-@import "elements/body";
-@import "elements/buttons";
-@import "elements/lists";
+@import "00-settings/colours";
+@import "00-settings/scales";
+@import "00-settings/type";
+@import "00-settings/spacing";
+@import "00-settings/easings";
+@import "00-settings/timings";
+@import "00-settings/breakpoints";
+@import "00-settings/grid";
 
+// tools
 //====================
+@import "01-tools/functions";
+@import "01-tools/mixins";
+@import "01-tools/family";
+
+// generic
+//====================
+@import "02-generic/font-faces";
+@import "02-generic/reset";
+@import "02-generic/type";
+
+// elements
+//====================
+@import "03-elements/html";
+@import "03-elements/body";
+@import "03-elements/buttons";
+@import "03-elements/lists";
+@import "03-elements/img";
+
+// objects
+//====================
+@import "04-objects/buttons";
+@import "04-objects/title";
+
+// layout
+//====================
+@import "05-layout/page";
+
 // components
 //====================
-@import "components/header";
-@import "components/section";
-@import "components/skills";
+@import "06-components/header";
+@import "06-components/section";
+@import "06-components/decoration";
+@import "06-components/about";
 
+// trumps
 //====================
-// Layout
-//====================
-@import "layout/page";
+@import "07-trumps/ratio";
+@import "07-trumps/visibility";

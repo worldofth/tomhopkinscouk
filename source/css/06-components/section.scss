@@ -1,0 +1,102 @@
+$gridSize: 5;
+$grid-colour: $charcoal-light;
+$grid-light-colour: $grey;
+$grid-opacity: 0.1;
+
+.c-section{
+	&--light{
+		background-color: #efefef;
+	}
+
+	&--med{
+		background-color: #888;
+	}
+
+	&--dark{
+		background-color: #3e3e3e;
+		color: #eee;
+	}
+
+	&--grid{
+		background-image: url('data:image/svg+xml,<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="smallGrid" width="#{$gridSize}" height="#{$gridSize}" patternUnits="userSpaceOnUse"><path d="M #{$gridSize} 0 L 0 0 0 #{$gridSize}" fill="none" stroke="#{$grid-colour}" stroke-width="0.5"/></pattern></defs><rect width="100%" height="100%" fill="url(#smallGrid)" opacity="#{$grid-opacity}" /></svg>');
+	}
+
+	&--grid-light{
+		background-image: url('data:image/svg+xml,<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="smallGrid" width="#{$gridSize}" height="#{$gridSize}" patternUnits="userSpaceOnUse"><path d="M #{$gridSize} 0 L 0 0 0 #{$gridSize}" fill="none" stroke="#{$grid-light-colour}" stroke-width="0.5"/></pattern></defs><rect width="100%" height="100%" fill="url(#smallGrid)" opacity="#{$grid-opacity}" /></svg>');
+	}
+
+	&--stripe{
+		background-image: url('data:image/svg+xml,<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="smallGrid" width="#{$gridSize}" height="#{$gridSize}" patternUnits="userSpaceOnUse"><path d="M 0 0 L 0 0 #{$gridSize} #{$gridSize}" fill="none" stroke="#{$grid-colour}" stroke-width="0.5"/></pattern></defs><rect width="100%" height="100%" fill="url(#smallGrid)" opacity="#{$grid-opacity}" /></svg>');
+	}
+
+	&--stripe-light{
+		background-image: url('data:image/svg+xml,<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="smallGrid" width="#{$gridSize}" height="#{$gridSize}" patternUnits="userSpaceOnUse"><path d="M 0 0 L 0 0 #{$gridSize} #{$gridSize}" fill="none" stroke="#{$grid-light-colour}" stroke-width="0.5"/></pattern></defs><rect width="100%" height="100%" fill="url(#smallGrid)" opacity="#{$grid-opacity}" /></svg>');
+	}
+
+	&--left-stripe{
+		background-image: url('data:image/svg+xml,<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="smallGrid" width="#{$gridSize}" height="#{$gridSize}" patternUnits="userSpaceOnUse"><path d="M 0 #{$gridSize} L 0 #{$gridSize} #{$gridSize} 0" fill="none" stroke="#{$grid-colour}" stroke-width="0.5"/></pattern></defs><rect width="100%" height="100%" fill="url(#smallGrid)" opacity="#{$grid-opacity}" /></svg>');
+	}
+
+	&--left-stripe-light{
+		background-image: url('data:image/svg+xml,<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="smallGrid" width="#{$gridSize}" height="#{$gridSize}" patternUnits="userSpaceOnUse"><path d="M 0 #{$gridSize} L 0 #{$gridSize} #{$gridSize} 0" fill="none" stroke="#{$grid-light-colour}" stroke-width="0.5"/></pattern></defs><rect width="100%" height="100%" fill="url(#smallGrid)" opacity="#{$grid-opacity}" /></svg>');
+	}
+
+	&--border{
+		position: relative;
+		padding-top: 24px;
+		padding-bottom: 16px;
+
+		&::before{
+			content: '';
+			position: absolute;
+			top: 15px;
+			bottom: 15px;
+			left: 0;
+			right: 0;
+			border: 2px solid $charcoal;
+			border-left: 0;
+			border-right: 0;
+			opacity: 0.6;
+		}
+
+		&::after{
+			content: '';
+			position: absolute;
+			top: 19px;
+			width: 100%;
+			height: 5px;
+			background-color: $charcoal;
+			opacity: 0.6;
+		}
+	}
+
+	&--vertical-border{
+		position: relative;
+		padding-left: 25px;
+		padding-right: 25px;
+
+		&::before{
+			content: '';
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 15px;
+			right: 15px;
+			border: 2px solid $charcoal;
+			border-top: 0;
+			border-bottom: 0;
+			opacity: 0.6;
+		}
+
+		&::after{
+			content: '';
+			position: absolute;
+			left: 19px;
+			top: 0;
+			width: 5px;
+			height: 100%;
+			background-color: $charcoal;
+			opacity: 0.6;
+		}
+	}
+}

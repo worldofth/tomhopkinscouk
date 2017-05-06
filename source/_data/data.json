@@ -1,22 +1,60 @@
 {
-	"projects": [
+	"headerNav":[
 		{
-			"title": "title",
-			"imagePath": "#img",
-			"description": "description",
-			"linkUrl": "#linkUrl",
-			"linkText": "link text",
-			"link2Url": "#link2url",
-			"link2Text": "link 2 text"
+			"linkText": "about",
+			"linkUrl": "#about",
+			"classes": "o-btn--fixed-width"
 		},
 		{
-			"title": "title",
+			"linkText": "projects",
+			"linkUrl": "#projects",
+			"classes": "o-btn--fixed-width"
+		},
+		{
+			"linkText": "github",
+			"linkUrl": "#github",
+			"classes": "o-btn--fixed-width o-btn--right"
+		},
+		{
+			"linkText": "linkedin",
+			"linkUrl": "#linkedin",
+			"classes": "o-btn--fixed-width o-btn--right"
+		}
+	],
+	"projects": [
+		{
+			"title": "Project 2 - Animation",
 			"imagePath": "#img",
-			"description": "description",
+			"description": "A look into complex animation using just css and playing around with the basic tooling available from chrome dev tools to create the animation.",
 			"linkUrl": "#linkUrl",
-			"linkText": "link text",
+			"linkText": "Github Project",
 			"link2Url": "#link2url",
-			"link2Text": "link 2 text"
+			"link2Text": "Demo"
+		},
+		{
+			"title": "Project 3 - Wireframe Layout",
+			"imagePath": "#img",
+			"description": "Playing around with the concepts of ITCSS, BEMIT and looking at the new layout techniques available from using both flexbox and grid. The design is based off a wireframe found on dribble.",
+			"linkUrl": "#linkUrl",
+			"linkText": "Github Project",
+			"link2Url": "#link2url",
+			"link2Text": "Demo"
+		},
+		{
+			"title": "Project 4 - Functional JS",
+			"imagePath": "#img",
+			"description": "Playing around with functional programming using functors, using the latest version of folktale, ramda and bacon js. I created a simple youtube video search app.",
+			"linkUrl": "#linkUrl",
+			"linkText": "Github Project",
+			"link2Url": "#link2url",
+			"link2Text": "Demo"
+		},
+		{
+			"title": "Servon Design",
+			"imagePath": "#img",
+			"description": "Servon Designs latest website, I focussed on creating a performant bespoke website with the flexibility to do what we want. All css and js is hand written with some small libaries like jumpjs used as a base for parts of the functionality.",
+			"linkUrl": "#linkUrl",
+			"linkText": "Website"
 		}
 	]
 }

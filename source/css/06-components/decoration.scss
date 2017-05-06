@@ -1,0 +1,50 @@
+.c-decoration{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	opacity: 0.4;
+	pointer-events: none;
+
+	svg{
+		stroke: #bbb;
+		stroke-width: 1;
+		position: absolute;
+	}
+
+	&__circles{
+		width: 50vw;
+		height: 50vw;
+		min-width: 450px;
+		min-height: 450px;
+		top: 0;
+		left: 0;
+		transform: translate(-50%, -60%);
+
+		&--bottom{
+			top: auto;
+			bottom: 0;
+			left: auto;
+			right: 0;
+			transform: translate(50%, 60%);
+		}
+	}
+
+	&__lines{
+		width: 30vw;
+		height: 30vw;
+		min-width: 300px;
+		min-height: 300px;
+		top: 0;
+		left: 0;
+
+		&--bottom{
+			top: auto;
+			bottom: 0;
+			left: auto;
+			right: 0;
+		}
+	}
+}

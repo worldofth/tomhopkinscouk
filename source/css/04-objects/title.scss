@@ -1,0 +1,10 @@
+.o-title{
+	text-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
+	font-weight: 400;
+	opacity: 0.9;
+	font-size: 8rem;
+
+	&--vertical{
+		text-shadow: -10px 0 0 rgba(0, 0, 0, 0.1);
+	}
+}
