@@ -1,0 +1,63 @@
+.c-media-item{
+	display: flex;
+	flex-direction: column;
+
+	&__head{
+		background-color: $charcoal;
+		padding: 6px 16px;
+		width: 100%;
+		flex: 0 0 auto;
+	}
+
+	&__body{
+		background-color: rgba(255, 255, 255, 0.6);
+		border: 1px solid rgba(51, 51, 51, 0.2);
+		border-top: 0;
+		flex: 1 1 auto;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__title{
+		color: $grey;
+	}
+
+	&__image{
+		height: 0;
+		padding-bottom: ratio(16, 9);
+		margin-bottom: 8px;
+		background-color: $grey;
+
+		> *{
+			object-fit: cover;
+		}
+	}
+
+	&__description{
+		padding: 8px 16px 16px;
+	}
+
+	&__links{
+		display: flex;
+		padding-left: 16px;
+		padding-right: 16px;
+		padding-bottom: 8px;
+		margin-top: auto;
+
+		> *{
+			flex: 1 1 0px;
+
+			&:first-child{
+				margin-right: 8px;
+			}
+
+			&:last-child{
+				margin-left: 8px;
+			}
+
+			&:first-child:last-child{
+				margin: 0;
+			}
+		}
+	}
+}

@@ -7,4 +7,25 @@
 	&--vertical{
 		text-shadow: -10px 0 0 rgba(0, 0, 0, 0.1);
 	}
+
+	&--small{
+		font-size: 6rem;
+		text-shadow: 0 9px 0 rgba(0, 0, 0, 0.1);
+	}
+
+	&--light{
+		text-shadow: 0 10px 0 rgba(255, 255, 255, 0.2);
+	}
+}
+
+.o-title--light.o-title--vertical{
+	text-shadow: -10px 0 0 rgba(255, 255, 255, 0.2);
+}
+
+.o-title--light.o-title--small{
+	text-shadow: 0 9px 0 rgba(255, 255, 255, 0.2);
+}
+
+.o-title--light.o-title--small.o-title--vertical{
+	text-shadow: -9px 0 0 rgba(255, 255, 255, 0.2);
 }
