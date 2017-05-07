@@ -1,15 +1,26 @@
 .c-about{
-	padding-top: 25px;
-	padding-bottom: 150px;
+	padding-bottom: 50px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 
+	@media (min-width: $sm){
+		padding-bottom: 150px;
+		padding-top: 25px;
+		padding-left: 45px;
+	}
+
 	&__title{
-		display: inline-block;
-		transform: translate(-64%, -100%) rotate(-90deg);
-		transform-origin: right bottom;
 		text-transform: uppercase;
+		margin-bottom: 0.1em;
+		margin-left: 10px;
+
+		@media (min-width: $sm){
+			display: inline-block;
+			transform: translate(-64%, -100%) rotate(-90deg);
+			transform-origin: right bottom;
+			margin-bottom: 0.66em;
+		}
 	}
 
 	&__content{
@@ -17,12 +28,20 @@
 		max-width: 650px;
 		min-width: 300px;
 		width: 80vw;
-		margin-left: 15vw;
+		margin-left: 0;
 		padding-left: 40px;
 		padding-right: 15px;
 		background-color: rgba(136, 136, 136, 0.8);
 		z-index: 1;
 		color: $grey;
+
+		@media (min-width: $sm){
+			margin-left: 15vw;
+		}
+
+		@media (min-width: $xl){
+			margin-left: 205px;
+		}
 
 		> *:last-child{
 			margin-bottom: 0;

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Basic Page Needs
+	============================== -->
+	<meta charset="utf-8">
+	<title>Project 2 - Animation</title>
+
+	<!-- Useful Metas
+	============================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=1">
+
+	<!-- css
+	============================== -->
+	<link rel="stylesheet" href="proj2/css/main.css">
+</head>
+<body>
+<section class="stage">
+<div class="multi-circles">
+	<div class="multi-circles__item"></div>
+	<div class="multi-circles__item"></div>
+	<div class="multi-circles__item"></div>
+	<div class="multi-circles__item"></div>
+</div>
+<div class="circle">
+	<div class="circle__shrink">
+		<div class="circle__move">
+			<div class="circle__spin">
+				<div class="circle__inner"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="box">
+	<div class="box__lines">
+		<div class="box__top"></div>
+		<div class="box__left"></div>
+		<div class="box__right"></div>
+	</div>
+</div>
+</section>
+	<script>
+		(function (){
+			function init(){
+				setTimeout(function (){
+					var stage = document.querySelector('.stage');
+					stage.classList.add('active');
+				}, 1000);
+			}
+
+			document.addEventListener('DOMContentLoaded', init);
+		})();
+	</script>
+</body>
+</html>

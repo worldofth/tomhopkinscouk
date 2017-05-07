@@ -87,6 +87,7 @@ $shadow-in: $userIn;
 
 	&__text{
 		z-index: 2;
+		white-space: nowrap;
 	}
 
 	&__background,
@@ -126,9 +127,11 @@ $shadow-in: $userIn;
 		transition: transform $shadow-out $easeOut, opacity $shadow-out $easeOut;
 	}
 
-	&--right:hover &__background::before,
-	&--right:focus &__background::before{
-		transform: translateX(-6px);
+	@media (min-width: $sm){
+		&--right:hover &__background::before,
+		&--right:focus &__background::before{
+			transform: translateX(-6px);
+		}
 	}
 
 	&--centred-animation:hover &__background::before,
@@ -147,8 +150,10 @@ $shadow-in: $userIn;
 		transition: opacity 0ms $userOut linear;
 	}
 
-	&--right &__hover-background{
-		transform-origin: right;
+	@media (min-width: $sm){
+		&--right &__hover-background{
+			transform-origin: right;
+		}
 	}
 
 	&--centred-animation &__hover-background{

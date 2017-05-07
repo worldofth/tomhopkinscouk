@@ -65,17 +65,9 @@
   "patternStates": {
   },
   "patternExportPatternPartials": [
-  	"pages-clients",
-  	"pages-brand-strategy-identity-design",
-  	"pages-estate-agents",
-  	"pages-home",
-  	"pages-photography",
-  	"pages-print",
-  	"pages-property-developers",
-  	"pages-video-animation",
-  	"pages-website-design"
+  	"design-home"
   ],
-  "patternExportDirectory": "./pattern_exports/",
+  "patternExportDirectory": "./html/",
   "cacheBust": true,
   "starterkitSubDir": "dist",
   "outputFileSuffixes": {

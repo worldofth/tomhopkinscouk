@@ -12,76 +12,98 @@
 		},
 		{
 			"linkText": "github",
-			"linkUrl": "#github",
-			"classes": "o-btn--fixed-width o-btn--right"
+			"linkUrl": "https://github.com/worldofth",
+			"classes": "o-btn--fixed-width o-btn--right",
+			"blank": true
 		},
 		{
 			"linkText": "linkedin",
-			"linkUrl": "#linkedin",
-			"classes": "o-btn--fixed-width o-btn--right"
+			"linkUrl": "https://www.linkedin.com/in/tom-hopkins-36283595/",
+			"classes": "o-btn--fixed-width o-btn--right",
+			"blank": true
 		}
 	],
 	"projects": [
 		{
+			"title": "Tom Hopkins Website",
+			"imagePath": "/images/tomhopkinswebsite.png",
+			"description": "This website's design is based designs from animation from my Project 2 - Animation project, Nier: Automata UI, Elementalist Lux skin introduction. It allow me to play around with many techniques I rarely use like background textures, rotated text and decoration to draw the eye.",
+			"links": [
+				{
+					"linkText": "Github Project",
+					"linkUrl": "https://github.com/worldofth/tomhopkinscouk",
+					"classes": "",
+					"blank": true
+				}
+			]
+		},
+		{
 			"title": "Project 2 - Animation",
-			"imagePath": "#img",
+			"imagePath": "/images/project-2.png",
 			"description": "A look into complex animation using just css and playing around with the basic tooling available from chrome dev tools to create the animation.",
 			"links": [
 				{
 					"linkText": "Github Project",
-					"linkUrl": "#gitlink",
-					"classes": ""
+					"linkUrl": "https://github.com/worldofth/daily-projects/tree/master/project-2",
+					"classes": "",
+					"blank": true
 				},
 				{
 					"linkText": "Demo",
-					"linkUrl": "#demolink",
-					"classes": "o-btn--right"
+					"linkUrl": "/project2.html",
+					"classes": "o-btn--right",
+					"blank": true
 				}
 			]
 		},
 		{
 			"title": "Project 3 - Wireframe Layout",
-			"imagePath": "#img",
+			"imagePath": "/images/project-3.png",
 			"description": "Playing around with the concepts of ITCSS, BEMIT and looking at the new layout techniques available from using both flexbox and grid. The design is based off a wireframe found on dribble.",
 			"links": [
 				{
 					"linkText": "Github Project",
-					"linkUrl": "#gitlink",
-					"classes": ""
+					"linkUrl": "https://github.com/worldofth/daily-projects/tree/master/project-3",
+					"classes": "",
+					"blank": true
 				},
 				{
 					"linkText": "Demo",
-					"linkUrl": "#demolink",
-					"classes": "o-btn--right"
+					"linkUrl": "/project3.html",
+					"classes": "o-btn--right",
+					"blank": true
 				}
 			]
 		},
 		{
 			"title": "Project 4 - Functional JS",
-			"imagePath": "#img",
+			"imagePath": "/images/project-4.png",
 			"description": "Playing around with functional programming using functors, using the latest version of folktale, ramda and bacon js. I created a simple youtube video search app.",
 			"links": [
 				{
 					"linkText": "Github Project",
-					"linkUrl": "#gitlink",
-					"classes": ""
+					"linkUrl": "https://github.com/worldofth/daily-projects/tree/master/project-4",
+					"classes": "",
+					"blank": true
 				},
 				{
 					"linkText": "Demo",
-					"linkUrl": "#demolink",
-					"classes": "o-btn--right"
+					"linkUrl": "/project4.html",
+					"classes": "o-btn--right",
+					"blank": true
 				}
 			]
 		},
 		{
 			"title": "Servon Design",
-			"imagePath": "#img",
+			"imagePath": "/images/servondesign.png",
 			"description": "Servon Designs latest website, I focussed on creating a performant bespoke website with the flexibility to do what we want. All css and js is hand written with some small libaries like jumpjs used as a base for parts of the functionality.",
 			"links": [
 				{
 					"linkText": "Website",
-					"linkUrl": "#website",
-					"classes": ""
+					"linkUrl": "https://www.servondesign.co.uk/",
+					"classes": "",
+					"blank": true
 				}
 			]
 		}
