@@ -212,18 +212,46 @@ gulp.task('patternlab:connect', gulp.series(function(done) {
 ******************************************************/
 var sass = require('gulp-sass'),
   sourcemaps = require('gulp-sourcemaps'),
-  autoprefixer = require('gulp-autoprefixer');
+  postcss = require('gulp-postcss'),
+  autoprefixer = require('autoprefixer'),
+  cssnano = require('gulp-cssnano');
 
-function buildSass(){
-  return gulp.src(resolvePath(paths().source.css) + '/main.scss')
-	.pipe(sourcemaps.init())
-	.pipe(sass({
-		outputStyle: 'compressed'
-	})
-	.on('error', console.log))
-	.pipe(sourcemaps.write('.'))
-	.pipe(gulp.dest(resolvePath(paths().source.css)));
+function compileSass(){
+	return gulp.src(resolvePath(paths().source.css) + '/main.scss')
+		.pipe(sourcemaps.init())
+		.pipe(sass().on('error', console.log))
+		.pipe(sourcemaps.write())
+		.pipe(gulp.dest(resolvePath(paths().source.css)));
 }
+
+function prefixCss(){
+	return gulp.src(resolvePath(paths().source.css) + '/main.css')
+		.pipe(sourcemaps.init({loadMaps: true}))
+		.pipe(postcss([ autoprefixer({browsers: ['last 4 versions']}) ]))
+		.pipe(sourcemaps.write())
+		.pipe(gulp.dest(resolvePath(paths().source.css)));
+}
+
+function minifyCss(){
+	return gulp.src(resolvePath(paths().source.css) + '/main.css')
+		.pipe(sourcemaps.init({loadMaps: true}))
+		.pipe(cssnano())
+		.pipe(sourcemaps.write())
+		.pipe(gulp.dest(resolvePath(paths().source.css)));
+}
+
+var buildSass = gulp.series(compileSass, prefixCss, minifyCss);
+
+// function buildSass(){
+//   return gulp.src(resolvePath(paths().source.css) + '/main.scss')
+// 	.pipe(sourcemaps.init())
+// 	.pipe(sass({
+// 		outputStyle: 'compressed'
+// 	})
+// 	.on('error', console.log))
+// 	.pipe(sourcemaps.write('.'))
+// 	.pipe(gulp.dest(resolvePath(paths().source.css)));
+// }
 
 function watchSass(){
   gulp.watch(resolvePath(paths().source.css) + '/**/*.scss', { awaitWriteFinish: true })
