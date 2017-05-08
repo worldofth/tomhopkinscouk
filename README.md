@@ -8,7 +8,8 @@ For the design i drew inspiration from:
 With this design i was able to play around with different techniques i don't touch very often, like for instance text shadow, Rotated text, background textures, decorative elements to draw the eye and new tech like grid and object fit.
 
 ## todo
-- test and fix on different browsers
+- ~~test and fix on different browsers~~
+- look into IE issue
 - add links and warnings on demo pages
 - select/add colours
 - add in more animation
