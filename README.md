@@ -10,6 +10,7 @@ With this design i was able to play around with different techniques i don't tou
 ## todo
 - ~~test and fix on different browsers~~
 - ~~look into IE issue~~
+- add htaccess
 - add links and warnings on demo pages
 - select/add colours
 - add in more animation
