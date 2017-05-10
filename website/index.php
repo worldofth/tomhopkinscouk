@@ -1,3 +1,8 @@
+<?php
+	$agent = $_SERVER['HTTP_USER_AGENT'];
+	$isIE = stripos($agent,"MSIE") !== false || stripos($agent,"Trident") !== false;
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,43 +21,7 @@
 	============================== -->
 	<link rel="stylesheet" href="resources/css/main.css">
 </head>
-<body>
-	<script>
-		(function (){
-			function init(){
-				var version = detectIE();
-				console.log(version);
-
-				if(version && version < 12){
-					alert('Please use Edge, or a different Browser');
-				}
-			}
-
-			function detectIE(){
-				var ua = window.navigator.userAgent;
-				var msie = ua.indexOf('MSIE ');
-				if(~msie){
-					return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
-				}
-
-				var trident = ua.indexOf('Trident/');
-				if(~trident){
-					var rv = ua.indexOf('rv:');
-	    			return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
-				}
-
-				var edge = ua.indexOf('Edge/');
-				if (~edge) {
-					return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
-				}
-
-				return false;
-			}
-
-			document.addEventListener('DOMContentLoaded', init);
-		})();
-	</script>
-
+<body<?php if($isIE) echo ' class="IE"'; ?>>
 	<header class="l-page l-center c-header c-section--light c-section--grid c-section--border">
 		<div class="c-decoration">
 			<svg class="c-decoration__circles" viewport="0 0 100 100">
@@ -175,7 +144,7 @@
 									<div class="o-btn__hover-background"></div>
 									<span class="o-btn__text">Github Project</span>
 								</a>
-								<a href="/project2.html" target="_blank" class="o-btn o-btn--right">
+								<a href="/project-2.html" target="_blank" class="o-btn o-btn--right">
 									<div class="o-btn__background"></div>
 									<div class="o-btn__hover-background"></div>
 									<span class="o-btn__text">Demo</span>
@@ -205,7 +174,7 @@
 									<div class="o-btn__hover-background"></div>
 									<span class="o-btn__text">Github Project</span>
 								</a>
-								<a href="/project3.html" target="_blank" class="o-btn o-btn--right">
+								<a href="/project-3.html" target="_blank" class="o-btn o-btn--right">
 									<div class="o-btn__background"></div>
 									<div class="o-btn__hover-background"></div>
 									<span class="o-btn__text">Demo</span>
@@ -235,7 +204,7 @@
 									<div class="o-btn__hover-background"></div>
 									<span class="o-btn__text">Github Project</span>
 								</a>
-								<a href="/project4.html" target="_blank" class="o-btn o-btn--right">
+								<a href="/project-4.html" target="_blank" class="o-btn o-btn--right">
 									<div class="o-btn__background"></div>
 									<div class="o-btn__hover-background"></div>
 									<span class="o-btn__text">Demo</span>
