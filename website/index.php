@@ -1,6 +1,7 @@
 <?php
 	$agent = $_SERVER['HTTP_USER_AGENT'];
 	$isIE = stripos($agent,"MSIE") !== false || stripos($agent,"Trident") !== false;
+	$isSafari = stripos($agent, "Safari") !== false;
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +22,7 @@
 	============================== -->
 	<link rel="stylesheet" href="resources/css/main.css">
 </head>
-<body<?php if($isIE) echo ' class="IE"'; ?>>
+<body<?php if($isIE || $isSafari) echo ' class="IE"'; ?>>
 	<header class="l-page l-center c-header c-section--light c-section--grid c-section--border">
 		<div class="c-decoration">
 			<svg class="c-decoration__circles" viewport="0 0 100 100">
