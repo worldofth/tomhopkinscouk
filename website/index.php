@@ -1,7 +1,7 @@
 <?php
 	$agent = $_SERVER['HTTP_USER_AGENT'];
 	$isIE = stripos($agent,"MSIE") !== false || stripos($agent,"Trident") !== false;
-	$isSafari = stripos($agent, "Safari") !== false;
+	$isSafari = stripos($agent, "Safari") !== false && stripos($agent, "Chrome") === false;
 ?>
 
 <!DOCTYPE html>
@@ -17,6 +17,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=1">
 	<meta name="description" content="">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 	<!-- css
 	============================== -->
